@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>NGO site example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/global.css') }}">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <!--navbar starts here-->
+    <div style="background-color: darkmagenta;">
+    <nav class="navbar navbar-expand-sm">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="http://127.0.0.1:5000/">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="http://127.0.0.1:5000/login">Visit Nepal</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="http://127.0.0.1:5000/work">Our Work</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="http://127.0.0.1:5000/aboutus">About Us</a>
+        </li>        
+        <li class="nav-item">
+          <a class="nav-link" href="http://127.0.0.1:5000/apply">Apply</a>
+        </li>
+      </ul>
+    </nav>
+    </div>
+      <div class="containter-fluid" style="background-image: url('/static/bg.jpg'); background-size:cover;background-repeat:no-repeat; height: 100%;">
+        <div class="row">
+            <div class="col-md-4 col-sm-4 col-xs-12"></div>
+                <div class="col-md-4 col-sm-4 col-xs-12">
+                    <!--form data in this division haii guys-->
+                    <form class="form-conatinor" action="/login" method="POST">
+                        <h1>Login to continue</h1>
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Username</label>
+                            <input type="Text" class="form-control" name="username" placeholder="User">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputPassword1">Password</label>
+                            <input type="password" class="form-control" name="password" placeholder="Password">
+                        </div>
+                        <div class="checkbox">
+                            <label>
+                            <input type="checkbox"> Rember me
+                            </label>
+                        </div>
+                        {{info}}
+                        <button type="submit" class="btn btn-success btn-block" value="Login">Submit</button>
+                    </form>
+                </div>
+                <div class="col-md-4 col-sm-4 col-xs-12">  </div>
+            </div>
+
+            <div class="box" style="margin-top: 60px; height:250px; width: 100%; border: 0px ; background-color:darkmagenta;">
+                <div class="row" style="color:white;">
+                  <div class="col-md-3">
+                    <h3 style="text-align: center;"><u>Our branch in</u></h3>
+                    <ul style="margin-left: 30px;">
+                    <li>Chabel</li>
+                    <li>New baneshowr</li>
+                    <li>Balaju</li>
+                    <li>Machhapokhari</li>
+                  </ul>
+        
+                  </div>
+            
+                  <div class="col-md-3" style=>
+                    <h3><u>Supported by</u></h3>
+                    <ul style="margin-left: -20px;">
+                      <li>Asian paints</li>
+                      <li>Kapsule</li>
+                      <li>Media hub</li>
+                      <li>Jazzproduction</li>
+                  </div>
+              
+        
+                  <div class="col-md-3">
+                    <h3><u>Follow us on</u></h3>
+                    <i class="fa fa-facebook-official" aria-hidden="true" style="background-color:blue;"></i>  Facebook
+                    <br><i class="fa fa-instagram" aria-hidden="true" style="background-color: orange;"></i>   Instagram
+                    <br><i class="fa fa-twitter" aria-hidden="true" style="background-color: skyblue;"></i>   Twitter
+                    <br><i class="fa fa-youtube-play" aria-hidden="true" style="background-color: red;"></i>   Youtube
+                  </div>
+        
+                  <div class="col-md-3">
+                    <h3><u>Contact info</u></h3>
+                      <i class="fa fa-mobile" aria-hidden="true"></i> Mobile:9865042219
+                      <br><i class="fa fa-phone" aria-hidden="true"></i> Phone:010403099
+                      <br><i class="fa fa-envelope" aria-hidden="true"></i> Email:gireesam4@gmail.com
+                    
+                  </div>
+        
+                </div>
+                </div>
+              <hr>
+              <p style="text-align: center;">© Copyright 2020. ALL RIGHTS RESERVED.</p> 
+              
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+        
+        

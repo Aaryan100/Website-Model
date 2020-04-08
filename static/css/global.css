@@ -1,0 +1,59 @@
+.box{border:0px solid ; padding:50px 60px; margin-top:100px;
+    -webkit-box-shadow: 4px 7px 25px 9px rgba(0,0,0,0.57);
+    -moz-box-shadow: 4px 7px 25px 9px rgba(0,0,0,0.57);
+    box-shadow: 4px 7px 25px 9px rgba(0,0,0,0.57);}
+
+.box3{border:0px solid ; padding:50px 60px; margin-top:100px;
+    -webkit-box-shadow: 4px 7px 25px 9px rgba(0,0,0,0.57);
+    -moz-box-shadow: 4px 7px 25px 9px rgba(0,0,0,0.57);
+    box-shadow: 4px 7px 25px 9px rgba(0,0,0,0.57);}
+        
+.button {
+    background-color: darkmagenta; /* Green */
+    border: none;
+    color: darkmagenta;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+    margin: 2px 1px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.button1 {
+    background-color: magenta; 
+    color: black; 
+    border: 2px solid darkmagenta;
+}        
+.button1:hover {
+    background-color: darkmagenta;
+    color: white;}
+            
+.form-conatinor{border:0px solid ; padding:50px 60px; margin-top:100px;
+    -webkit-box-shadow: 4px 7px 25px 9px rgba(0,0,0,0.57);
+    -moz-box-shadow: 4px 7px 25px 9px rgba(0,0,0,0.57);
+    box-shadow: 4px 7px 25px 9px rgba(0,0,0,0.57);
+
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.img-hover-zoom {
+    height: 300px; /* [1.1] Set it as per your need */
+    overflow: hidden; /* [1.2] Hide the overflowing of child elements */
+  }
+  
+  /* [2] Transition property for smooth transformation of images */
+  .img-hover-zoom img {
+    transition: transform .5s ease;
+  }
+  
+  /* [3] Finally, transforming the image when container gets hovered */
+  .img-hover-zoom:hover img {
+    transform: scale(1.5);
+  }

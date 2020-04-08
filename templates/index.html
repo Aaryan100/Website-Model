@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>NGO site example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/global.css') }}">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <!--navbar starts here-->
+    <div style="background-color: darkmagenta;">
+    <nav class="navbar navbar-expand-sm">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="http://127.0.0.1:5000/">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="http://127.0.0.1:5000/login">Visit Nepal</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="http://127.0.0.1:5000/work">Our Work</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="http://127.0.0.1:5000/aboutus">About Us</a>
+        </li>        
+        <li class="nav-item">
+          <a class="nav-link" href="http://127.0.0.1:5000/apply">Apply</a>
+        </li>
+      </ul>
+    </nav>
+    </div>
+      <div class="containter-fluid">
+        <div class="row">
+          <div
+            class="col-sm-12 "
+            style="background-image: url('/static/bg.jpg'); background-size:cover;background-repeat:no-repeat;"
+          >
+          <!--first block-->
+            <div
+              class="row for content-center "
+              style="margin-top: 100px; margin-left: 190px;"
+            >
+              <div class="col-4">
+                <img
+                  src="/static/logo.png"
+                  alt=""
+                  style="width:85%;"
+                />
+              </div>
+              <div class="col-4">
+                <h1 class="display-4 font-weight-bold  text-center">
+                  <span style="color:magenta;">GIRI FOUNDATION</span><br />
+                  <span style="color:black;">Together we can do</span>
+                  <span style="font-size: 20px;color:black;"
+                    ><p style="color:magenta">Helping the way around</p></span
+                  >
+                </h1>
+              </div>
+              <div
+                class=" container border rounded-lg"
+                style=" background:rgba(255, 255, 255, 0.3);border:none;margin:100px 0 100px 0;"
+              >
+                <div class="container">
+                  <h2 style="text-align:center;">Helping the way around.</h2>
+                  <div
+                    class="row "
+                    style="background-color: rgb(255, 255, 255);margin-bottom:1em;"
+                  >
+                    
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--footer starte here-->
+            <div class="box" style="margin-top: 5px; height:250px; width: 100%; border: 0px ; background-color:darkmagenta;">
+              <div class="row" style="color:white;">
+                <div class="col-md-3">
+                  <h3 style="text-align: center;"><u>Our branch in</u></h3>
+                  <ul style="margin-left: 30px;">
+                  <li>Chabel</li>
+                  <li>New baneshowr</li>
+                  <li>Balaju</li>
+                  <li>Machhapokhari</li>
+                </ul>
+      
+                </div>
+          
+                <div class="col-md-3" style=>
+                  <h3><u>Supported by</u></h3>
+                  <ul style="margin-left: -20px;">
+                    <li>Asian paints</li>
+                    <li>Kapsule</li>
+                    <li>Media hub</li>
+                    <li>Jazzproduction</li>
+                </div>
+            
+      
+                <div class="col-md-3">
+                  <h3><u>Follow us on</u></h3>
+                  <i class="fa fa-facebook-official" aria-hidden="true" style="background-color:blue;"></i>  Facebook
+                  <br><i class="fa fa-instagram" aria-hidden="true" style="background-color: orange;"></i>   Instagram
+                  <br><i class="fa fa-twitter" aria-hidden="true" style="background-color: skyblue;"></i>   Twitter
+                  <br><i class="fa fa-youtube-play" aria-hidden="true" style="background-color: red;"></i>   Youtube
+                </div>
+      
+                <div class="col-md-3">
+                  <h3><u>Contact info</u></h3>
+                    <i class="fa fa-mobile" aria-hidden="true"></i> Mobile:9865042219
+                    <br><i class="fa fa-phone" aria-hidden="true"></i> Phone:010403099
+                    <br><i class="fa fa-envelope" aria-hidden="true"></i> Email:gireesam4@gmail.com
+                  
+                </div>
+      
+              </div>
+              </div>
+            <hr>
+            <p style="text-align: center;">© Copyright 2020. ALL RIGHTS RESERVED.</p> 
+            
+            </div>
+          </div>
+        </div>
+      </div>
+      
+
+</body>
+</html>
