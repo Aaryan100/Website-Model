@@ -1,1 +1,0 @@
-{'first name': 'Arjun', 'last name': 'Paudel', 'dateofbirth': '4', 'gender': 'Arjun Paudel', 'education': '', 'occupation': '', 'street': 'battisputali, Gausala', 'town': 'Kathmandu', 'country': 'Nepal', 'email': 'apaudel029@gmail.com', 'phoneno': '9825566817'}

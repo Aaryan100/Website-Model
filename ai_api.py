@@ -5,11 +5,11 @@ import sys
 import ibm_watson
 
 authenticator = IAMAuthenticator(
-    '0XCyw-LZ-3V257fcyMFGZjF8vQbe2sZfUNa0fG8bggDL')  # here goes service api key
+    '*******************************')  # here goes service api key
 
 visual_recognition = VisualRecognitionV3(
     '2018-03-19',
-    iam_apikey='0XCyw-LZ-3V257fcyMFGZjF8vQbe2sZfUNa0fG8bggDL'
+    iam_apikey='**********************************'
 )
 
 
